@@ -126,7 +126,7 @@ object Play2ReactiveMongoBuild extends Build {
         "org.reactivemongo"   %% "reactivemongo"  % "0.10.5.0.akka23"               cross CrossVersion.binary,
         "com.typesafe.play"   %% "play"           % "2.4.0"           % "provided"  cross CrossVersion.binary,
         "com.typesafe.play"   %% "play-test"      % "2.4.0"           % "test"      cross CrossVersion.binary,
-        "org.specs2"          % "specs2-core"     % "3.6"             % "test"      cross CrossVersion.binary,
+        "org.specs2"          % "specs2-core"     % "3.3.1"           % "test"      cross CrossVersion.binary,
         "junit"               % "junit"           % "4.12"            % "test"      cross CrossVersion.Disabled,
         "org.apache.logging.log4j" % "log4j-to-slf4j" % "2.0.2"
       )
